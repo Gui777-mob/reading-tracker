@@ -8,8 +8,10 @@ Aplicação web que substitui um registro de leituras mantido em um documento Wo
 
 | Nome | ID / Matrícula |
 |------|----------------|
-| _(preencher)_ | _(preencher)_ |
-| _(preencher)_ | _(preencher)_ |
+| Flávia Marcella Gonçalves Moreira| 2024.1.08.025 |
+| Guilherme Oliveira Araujo | 2024.1.08.011|
+|João Pedro Carvalho Ferreira | 2024.1.08.030|
+|Larissa Rodrigues de Ávila  | 2024.1 08.031|
 
 ## Tecnologias
 
