@@ -106,12 +106,9 @@ Requisitos opcionais (FR-08 a FR-18): não implementados nesta entrega.
 
 ## Declaração de uso de IA
 
-**Ferramenta:** Claude (Anthropic).
-
-**Uso:** geração inicial do código do frontend (HTML, CSS e JavaScript), a partir do enunciado, do PDF de requisitos e do `seed.json`, e rascunho deste README. Também orientou o uso do Git e do GitHub.
-O `seed.json` foi usado sem alterações. A equipe se responsabiliza por compreender e explicar o código entregue.
-
 
 | Ferramenta | Usada para | Partes afetadas |
 |------------|-----------|-----------------|
-| Claude Code (Anthropic) | Revisão do projeto contra o enunciado da Entrega 1; correção do defeito na seção *First Reading* do formulário de livro (FR-03); revisão do README | `frontend/css/style.css`, `frontend/js/forms.js`, `README.md` |
+| Claude Code (Anthropic) | Geração inicial do código do frontend (HTML, CSS e JavaScript), a partir do enunciado, do PDF de requisitos e do `seed.json`, e rascunho deste README. Também orientou o uso do Git e do GitHub. O `seed.json` foi usado sem alterações. Revisão do projeto contra o enunciado da Entrega 1; correção do defeito na seção *First Reading* do formulário de livro (FR-03); revisão do README | `frontend/html`,`frontend/css/style.css`, `frontend/js/forms.js`, `README.md` |
+
+A equipe se responsabiliza por compreender e explicar o código entregue.
