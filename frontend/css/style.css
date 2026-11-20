@@ -22,6 +22,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .skip-link { position: absolute; left: .5rem; top: -4rem; background: var(--amber); color: var(--ink); padding: .5rem .9rem; border-radius: var(--radius); z-index: 100; }
 .skip-link:focus { top: .5rem; }
 .muted { color: var(--muted); }
+/* The hidden attribute must always win, even over rules like `display: grid`
+   (otherwise the first-reading fields stay visible while the checkbox is off). */
+[hidden] { display: none !important; }
 
 /* Layout */
 .app { display: grid; grid-template-columns: var(--sidebar) minmax(0, 1fr); min-height: 100vh; }

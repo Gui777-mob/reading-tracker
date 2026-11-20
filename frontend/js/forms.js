@@ -303,10 +303,13 @@ export function openBookForm({ book = null, authors, themes, onSubmit }) {
   let toggle = null;
   if (!book) {
     const FR = T.books.firstReading;
-    toggle = h('input', { type: 'checkbox', id: 'first-reading-toggle' });
+    toggle = h('input', { type: 'checkbox', id: 'first-reading-toggle', 'aria-controls': 'first-reading-fields' });
     reading = buildReadingFields({ namePrefix: 'firstReading.', values: { status: STATUS.WANT_TO_READ } });
-    const host = h('div', { class: 'subform-fields', hidden: true }, reading.nodes);
-    toggle.addEventListener('change', () => { host.hidden = !toggle.checked; });
+    const host = h('div', { class: 'subform-fields', id: 'first-reading-fields', hidden: true }, reading.nodes);
+    toggle.addEventListener('change', () => {
+      host.hidden = !toggle.checked;
+      if (toggle.checked) host.scrollIntoView({ block: 'nearest' }); // the section sits at the bottom of a scrolling dialog
+    });
     nodes.push(h('fieldset', { class: 'subform' },
       h('legend', {}, FR.legend),
       h('p', { class: 'field-hint' }, FR.hint),
