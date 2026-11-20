@@ -105,7 +105,6 @@ Requisitos opcionais (FR-08 a FR-18): não implementados nesta entrega.
 
 ## Uso de IA
 
-<!-- ATENÇÃO, EQUIPE: o enunciado (Seção 10) exige listar TODAS as ferramentas de IA usadas no projeto. Se vocês usaram outras (ChatGPT, GitHub Copilot, outro assistente de código etc.) em qualquer parte do código ou do README, adicionem uma linha para cada uma na tabela abaixo. Uso não declarado é tratado como desonestidade acadêmica. Depois de revisar, apaguem este comentário. -->
 
 | Ferramenta | Usada para | Partes afetadas |
 |------------|-----------|-----------------|
